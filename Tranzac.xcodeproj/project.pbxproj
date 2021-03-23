@@ -15,6 +15,7 @@
 		F334F713260AA91000CD5848 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F334F711260AA91000CD5848 /* LaunchScreen.storyboard */; };
 		F334F71E260AA91000CD5848 /* TranzacTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F334F71D260AA91000CD5848 /* TranzacTests.swift */; };
 		F334F729260AA91000CD5848 /* TranzacUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F334F728260AA91000CD5848 /* TranzacUITests.swift */; };
+		F334F73A260AA9B700CD5848 /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = F334F739260AA9B600CD5848 /* README.md */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +50,7 @@
 		F334F724260AA91000CD5848 /* TranzacUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TranzacUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		F334F728260AA91000CD5848 /* TranzacUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TranzacUITests.swift; sourceTree = "<group>"; };
 		F334F72A260AA91000CD5848 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F334F739260AA9B600CD5848 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -79,6 +81,7 @@
 		F334F6FA260AA90F00CD5848 = {
 			isa = PBXGroup;
 			children = (
+				F334F739260AA9B600CD5848 /* README.md */,
 				F334F705260AA90F00CD5848 /* Tranzac */,
 				F334F71C260AA91000CD5848 /* TranzacTests */,
 				F334F727260AA91000CD5848 /* TranzacUITests */,
@@ -233,6 +236,7 @@
 			files = (
 				F334F713260AA91000CD5848 /* LaunchScreen.storyboard in Resources */,
 				F334F710260AA91000CD5848 /* Assets.xcassets in Resources */,
+				F334F73A260AA9B700CD5848 /* README.md in Resources */,
 				F334F70E260AA90F00CD5848 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -439,6 +443,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = T3BYTBR63S;
 				INFOPLIST_FILE = Tranzac/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -458,6 +463,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = T3BYTBR63S;
 				INFOPLIST_FILE = Tranzac/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
