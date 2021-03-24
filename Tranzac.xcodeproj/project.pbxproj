@@ -9,13 +9,19 @@
 /* Begin PBXBuildFile section */
 		F334F707260AA90F00CD5848 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F334F706260AA90F00CD5848 /* AppDelegate.swift */; };
 		F334F709260AA90F00CD5848 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F334F708260AA90F00CD5848 /* SceneDelegate.swift */; };
-		F334F70B260AA90F00CD5848 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F334F70A260AA90F00CD5848 /* ViewController.swift */; };
 		F334F70E260AA90F00CD5848 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F334F70C260AA90F00CD5848 /* Main.storyboard */; };
 		F334F710260AA91000CD5848 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F334F70F260AA91000CD5848 /* Assets.xcassets */; };
 		F334F713260AA91000CD5848 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F334F711260AA91000CD5848 /* LaunchScreen.storyboard */; };
 		F334F71E260AA91000CD5848 /* TranzacTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F334F71D260AA91000CD5848 /* TranzacTests.swift */; };
 		F334F729260AA91000CD5848 /* TranzacUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F334F728260AA91000CD5848 /* TranzacUITests.swift */; };
 		F334F73A260AA9B700CD5848 /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = F334F739260AA9B600CD5848 /* README.md */; };
+		F334F747260ABA8400CD5848 /* TCBankAccountListVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = F334F746260ABA8400CD5848 /* TCBankAccountListVC.swift */; };
+		F334F751260ABBDE00CD5848 /* ServiceManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = F334F750260ABBDE00CD5848 /* ServiceManager.swift */; };
+		F334F759260ABC5200CD5848 /* AccountListModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = F334F758260ABC5200CD5848 /* AccountListModel.swift */; };
+		F334F75F260ABD8800CD5848 /* Reachability.swift in Sources */ = {isa = PBXBuildFile; fileRef = F334F75E260ABD8800CD5848 /* Reachability.swift */; };
+		F334F767260ABDD500CD5848 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = F334F766260ABDD500CD5848 /* Constants.swift */; };
+		F334F76F260AC1B300CD5848 /* AccountListTVCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = F334F76E260AC1B300CD5848 /* AccountListTVCell.swift */; };
+		F334F777260AD53000CD5848 /* AccountListTVCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = F334F776260AD53000CD5848 /* AccountListTVCell.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -39,7 +45,6 @@
 		F334F703260AA90F00CD5848 /* Tranzac.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Tranzac.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F334F706260AA90F00CD5848 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		F334F708260AA90F00CD5848 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		F334F70A260AA90F00CD5848 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		F334F70D260AA90F00CD5848 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		F334F70F260AA91000CD5848 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		F334F712260AA91000CD5848 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -51,6 +56,13 @@
 		F334F728260AA91000CD5848 /* TranzacUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TranzacUITests.swift; sourceTree = "<group>"; };
 		F334F72A260AA91000CD5848 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		F334F739260AA9B600CD5848 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		F334F746260ABA8400CD5848 /* TCBankAccountListVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TCBankAccountListVC.swift; sourceTree = "<group>"; };
+		F334F750260ABBDE00CD5848 /* ServiceManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ServiceManager.swift; sourceTree = "<group>"; };
+		F334F758260ABC5200CD5848 /* AccountListModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AccountListModel.swift; sourceTree = "<group>"; };
+		F334F75E260ABD8800CD5848 /* Reachability.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Reachability.swift; sourceTree = "<group>"; };
+		F334F766260ABDD500CD5848 /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		F334F76E260AC1B300CD5848 /* AccountListTVCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AccountListTVCell.swift; sourceTree = "<group>"; };
+		F334F776260AD53000CD5848 /* AccountListTVCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = AccountListTVCell.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -104,10 +116,12 @@
 			children = (
 				F334F706260AA90F00CD5848 /* AppDelegate.swift */,
 				F334F708260AA90F00CD5848 /* SceneDelegate.swift */,
-				F334F70A260AA90F00CD5848 /* ViewController.swift */,
-				F334F70C260AA90F00CD5848 /* Main.storyboard */,
+				F334F75D260ABD6E00CD5848 /* Utilities */,
+				F334F74F260ABBBB00CD5848 /* Models */,
+				F334F74E260ABB1C00CD5848 /* Cells */,
+				F334F745260AB95A00CD5848 /* Controllers */,
+				F334F73E260AB2EB00CD5848 /* Storyboards */,
 				F334F70F260AA91000CD5848 /* Assets.xcassets */,
-				F334F711260AA91000CD5848 /* LaunchScreen.storyboard */,
 				F334F714260AA91000CD5848 /* Info.plist */,
 			);
 			path = Tranzac;
@@ -129,6 +143,50 @@
 				F334F72A260AA91000CD5848 /* Info.plist */,
 			);
 			path = TranzacUITests;
+			sourceTree = "<group>";
+		};
+		F334F73E260AB2EB00CD5848 /* Storyboards */ = {
+			isa = PBXGroup;
+			children = (
+				F334F70C260AA90F00CD5848 /* Main.storyboard */,
+				F334F711260AA91000CD5848 /* LaunchScreen.storyboard */,
+			);
+			path = Storyboards;
+			sourceTree = "<group>";
+		};
+		F334F745260AB95A00CD5848 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				F334F746260ABA8400CD5848 /* TCBankAccountListVC.swift */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		F334F74E260ABB1C00CD5848 /* Cells */ = {
+			isa = PBXGroup;
+			children = (
+				F334F76E260AC1B300CD5848 /* AccountListTVCell.swift */,
+				F334F776260AD53000CD5848 /* AccountListTVCell.xib */,
+			);
+			path = Cells;
+			sourceTree = "<group>";
+		};
+		F334F74F260ABBBB00CD5848 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				F334F750260ABBDE00CD5848 /* ServiceManager.swift */,
+				F334F758260ABC5200CD5848 /* AccountListModel.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		F334F75D260ABD6E00CD5848 /* Utilities */ = {
+			isa = PBXGroup;
+			children = (
+				F334F75E260ABD8800CD5848 /* Reachability.swift */,
+				F334F766260ABDD500CD5848 /* Constants.swift */,
+			);
+			path = Utilities;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -234,6 +292,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F334F777260AD53000CD5848 /* AccountListTVCell.xib in Resources */,
 				F334F713260AA91000CD5848 /* LaunchScreen.storyboard in Resources */,
 				F334F710260AA91000CD5848 /* Assets.xcassets in Resources */,
 				F334F73A260AA9B700CD5848 /* README.md in Resources */,
@@ -262,9 +321,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F334F70B260AA90F00CD5848 /* ViewController.swift in Sources */,
+				F334F747260ABA8400CD5848 /* TCBankAccountListVC.swift in Sources */,
 				F334F707260AA90F00CD5848 /* AppDelegate.swift in Sources */,
+				F334F75F260ABD8800CD5848 /* Reachability.swift in Sources */,
 				F334F709260AA90F00CD5848 /* SceneDelegate.swift in Sources */,
+				F334F767260ABDD500CD5848 /* Constants.swift in Sources */,
+				F334F76F260AC1B300CD5848 /* AccountListTVCell.swift in Sources */,
+				F334F759260ABC5200CD5848 /* AccountListModel.swift in Sources */,
+				F334F751260ABBDE00CD5848 /* ServiceManager.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
