@@ -11,10 +11,23 @@ protocol ServiceManagerProtocol {
     func didUpdateAccountList(account: AccountListModel)
     func didFailWithError(error: String)
 }
+
 class ServiceManager {
     
     var delegate: ServiceManagerProtocol?
     var activityView: UIActivityIndicatorView?
+
+    // MARK:- API call
+    func fetchData(url: String) {
+        showActivityIndicator()
+        let urlString = "\(Constants.baseURL)" + url
+        if Reachability.isConnectedToNetwork(){
+            performRequest(with: urlString)
+        } else {
+            hideActivityIndicator()
+            delegate?.didFailWithError(error: Errors.noInternet)
+        }
+    }
 
     // MARK:- URLSession Task
     private func performRequest(with urlString: String) {
@@ -27,6 +40,16 @@ class ServiceManager {
                     return
                 }
                 if let safeData = data {
+                    let decoder = JSONDecoder()
+                    do {
+                        let decodedData = try decoder.decode(AccountListModel.self, from: safeData)
+                        self?.delegate?.didUpdateAccountList(account: decodedData)
+                        self?.hideActivityIndicator()
+                    } catch let error {
+                        print(error.localizedDescription)
+                        self?.hideActivityIndicator()
+                        self?.delegate?.didFailWithError(error: Errors.serverError)
+                    }
                 }
             }
             task.resume()
@@ -36,10 +59,10 @@ class ServiceManager {
     // MARK:-  Activity Indicator
     private func showActivityIndicator() {
         activityView = UIActivityIndicatorView(style: .large)
-        activityView?.color = .white
+        activityView?.color = .darkGray
         DispatchQueue.main.asyncAfter(deadline: .now()+0.2) {
-//            self.activityView!.center = UIApplication.scene.view.center
-//            UIApplication.scene.view.addSubview(self.activityView!)
+            self.activityView!.center = UIApplication.scene.view.center
+            UIApplication.scene.view.addSubview(self.activityView!)
             self.activityView!.startAnimating()
         }
     }

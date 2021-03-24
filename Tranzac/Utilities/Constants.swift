@@ -9,6 +9,9 @@ import Foundation
 
 struct Constants {
     static let baseURL = "https://www.ubank.com.au/content/dam/ubank/mobile/coding/"
+    static let accounts = "accounts.json"
+    static let balance = "Balance: "
+    static let currentBalance = "Current Balance: "
 }
 
 struct AlertConstant {

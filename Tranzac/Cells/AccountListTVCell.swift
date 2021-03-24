@@ -16,5 +16,11 @@ class AccountListTVCell: UITableViewCell {
         backgroundColor = .white
         super.awakeFromNib()
     }
+    
+    func updateCell(model: Accounts) {
+        accountTitleLabel.text = model.productName
+        accountSpendingLabel.text = Constants.balance + "\(model.availableBalance)"
+        accountBalanceLabel.text = Constants.currentBalance + "\(model.currentBalance)"
+    }
 }
 

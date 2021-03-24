@@ -8,12 +8,12 @@
 import UIKit
 
 struct AccountListModel: Codable {
-    let accountList: [Accounts]
+    let accounts: [Accounts]
 }
 
 struct Accounts: Codable {
-    let id: Int
-    let currentBalance: Double
-    let availableBalance: Double
+    let id: String
+    let currentBalance: String
+    let availableBalance: String
     let productName: String
 }

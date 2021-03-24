@@ -22,6 +22,8 @@
 		F334F767260ABDD500CD5848 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = F334F766260ABDD500CD5848 /* Constants.swift */; };
 		F334F76F260AC1B300CD5848 /* AccountListTVCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = F334F76E260AC1B300CD5848 /* AccountListTVCell.swift */; };
 		F334F777260AD53000CD5848 /* AccountListTVCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = F334F776260AD53000CD5848 /* AccountListTVCell.xib */; };
+		F334F77C260B2FB500CD5848 /* Alert.swift in Sources */ = {isa = PBXBuildFile; fileRef = F334F77B260B2FB500CD5848 /* Alert.swift */; };
+		F334F781260B300000CD5848 /* UIViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F334F780260B300000CD5848 /* UIViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -63,6 +65,8 @@
 		F334F766260ABDD500CD5848 /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
 		F334F76E260AC1B300CD5848 /* AccountListTVCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AccountListTVCell.swift; sourceTree = "<group>"; };
 		F334F776260AD53000CD5848 /* AccountListTVCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = AccountListTVCell.xib; sourceTree = "<group>"; };
+		F334F77B260B2FB500CD5848 /* Alert.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Alert.swift; sourceTree = "<group>"; };
+		F334F780260B300000CD5848 /* UIViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -185,6 +189,8 @@
 			children = (
 				F334F75E260ABD8800CD5848 /* Reachability.swift */,
 				F334F766260ABDD500CD5848 /* Constants.swift */,
+				F334F77B260B2FB500CD5848 /* Alert.swift */,
+				F334F780260B300000CD5848 /* UIViewController.swift */,
 			);
 			path = Utilities;
 			sourceTree = "<group>";
@@ -321,9 +327,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F334F77C260B2FB500CD5848 /* Alert.swift in Sources */,
 				F334F747260ABA8400CD5848 /* TCBankAccountListVC.swift in Sources */,
 				F334F707260AA90F00CD5848 /* AppDelegate.swift in Sources */,
 				F334F75F260ABD8800CD5848 /* Reachability.swift in Sources */,
+				F334F781260B300000CD5848 /* UIViewController.swift in Sources */,
 				F334F709260AA90F00CD5848 /* SceneDelegate.swift in Sources */,
 				F334F767260ABDD500CD5848 /* Constants.swift in Sources */,
 				F334F76F260AC1B300CD5848 /* AccountListTVCell.swift in Sources */,
